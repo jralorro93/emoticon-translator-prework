@@ -16,12 +16,7 @@ end
 
 def get_japanese_emoticon(path, emoticon)
   lib_hash = load_library(path)
-  english = emoticon 
-  if lib_hash["get_emoticon"][english] != nil   
-    lib_hash["get_emoticon"][english]
-  else 
-    "sorry, that emoticon was not found"
-  end 
+  
 end
 
 def get_english_meaning(path, emoticon)
