@@ -20,6 +20,7 @@ def get_japanese_emoticon(path, emoticon)
   if dictionary.has_key?(emoticon)
     dictionary[emoticon]
   else 
+    "Sorry"
 end
 
 def get_english_meaning(path, emoticon)
